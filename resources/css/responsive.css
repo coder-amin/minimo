@@ -1,0 +1,90 @@
+@media only screen and (max-width:1200px){
+    .header-row {
+        max-width: 100%;
+        margin: 0 2rem;
+    }
+    .row {
+        max-width: 100%;
+        margin: 0 5rem;
+    }
+    .blog-section {
+        padding: 2rem 0;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .sticky-menu .mobile-menu span {
+        margin-top: 0rem;
+    }
+}
+@media only screen and (max-width:768px){
+    h2{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .newslatter-section h2 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    h2{
+        font-size: 1.8rem;
+    }
+    h4{
+        font-size: 1.3rem;
+    }
+    p{
+        text-align: justify;
+    }
+    .photodiary-section h4{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .photodiary-section h2{
+        margin: 2rem 0;
+    }
+    .photodiary-section .col:nth-child(1){
+        margin-bottom: 5rem;
+    }
+    .newslatter-section h2 {
+        font-size: 2.2rem;
+    }
+    .newslatter-section form {
+        width: 100%;
+    }
+    .lifestyle-section h2{
+        margin: 2rem 0;
+    }
+    .lifestyle-section h4{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .lifestyle-section .col:nth-child(1){
+        margin-bottom: 5rem;
+    }
+    .condition-list-items{
+        width: 75%;
+    }
+    .condition-list-items li{
+        display: block;
+        margin: 1rem 0;
+    }
+    .social-link-items{
+        text-align: left;
+        width: 20%;
+    }
+    .social-link-items li{
+        display: block;
+        margin: 1rem 0;
+    }
+    .btn {
+        padding: 1.5rem 3rem;
+    }
+}

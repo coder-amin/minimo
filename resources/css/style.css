@@ -1,0 +1,300 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    color: #626262;
+    background-color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+/* =============== */
+/* REUABLE COMPONANTS CSS */
+/* =============== */
+.row{
+    max-width: 117rem;
+    margin: auto;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+.btn{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #626262;
+    display: inline-block;
+    padding: 2rem 4rem;
+    border: .2rem solid #626262;
+    letter-spacing: .1rem;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.btn:hover{
+    background-color: #626262;
+    color: #fff;
+    border: .2rem solid #626262;
+}
+
+
+/* =============== */
+/* HEADING CSS */
+/* =============== */
+h2{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+
+}
+h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+/* =============== */
+/* ======================= HEADER SECTION CSS ====================== */
+/* =============== */
+.header-section nav{
+    
+}
+.header-section .logo{
+    margin-top: 5rem;
+    width: 15rem;
+    float: left;
+}
+.header-row{
+    max-width: 130rem;
+    margin: auto;
+}
+.header-row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-nav{
+    margin-top: 5rem;
+    float: right;
+}
+.main-nav li{
+    margin: 0 2rem;
+    display: inline-block;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    font-weight: 600;
+    color: #626262;
+    text-transform: uppercase;
+    display: block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    color: #000;
+}
+/* ============== STICKY NAVIGATION CSS ============== */
+.sticky-menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+    margin-top: 0;
+    z-index: 1;
+}
+.sticky-menu .logo,
+.sticky-menu .main-nav{
+    margin-top: 0;
+}
+/* ============= MOBILE NAVIGATION ================ */
+.mobile-menu span{
+    float: right;
+    font-size: 3.5rem;
+    line-height: 0;
+    display: none;
+    margin-top: 4rem;
+}
+.ovarlay-contents{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333333;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: 1;
+}
+.ovarlay-items{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+.ovarlay-items a{
+    font-size: 3rem;
+    color: #dddddd;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: .2rem;
+    padding: 1rem 0;
+}
+.ovarlay-items a:hover{
+    color: #fff;
+}
+.close-btn{
+    font-size: 3.5rem;
+    color: #dddddd;
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+
+.slider-img{
+    margin-top: 5rem;
+    width: 100%;
+}
+
+
+/* =============== */
+/* ======================= BLOG SECTION CSS ====================== */
+/* =============== */
+.blog-section{
+    padding: 10rem 0;
+}
+
+/* =============== */
+/* ======================= PHOTODIARY SECTION CSS ====================== */
+/* =============== */
+.photodiary-section{
+    padding: 10rem 0;
+}
+.photodiary-section .col:nth-child(3){
+    margin-left: 0;
+}
+.photodiary-section .col:nth-child(3),
+.photodiary-section .col:nth-child(4){
+    margin-top: 6rem
+}
+
+/* =============== */
+/* ======================= NEWSLATTER SECTION CSS ====================== */
+/* =============== */
+
+.newslatter-section{
+    background-color: #f0f0f0;
+    padding: 8rem 0;
+    text-align: center;
+}
+.newslatter-section h2{}
+.newslatter-section form{
+    width: 40%;
+    margin: auto;
+}
+.newslatter-section form input{
+    padding: 1.5rem .5rem;
+    width: 100%;
+    border: none;
+    border-bottom: .2rem solid #000;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+}
+.newslatter-section form input::placeholder{
+    color: #626262;
+    opacity: 1;
+}
+
+/* =============== */
+/* ======================= LIFESTYLE SECTION CSS ====================== */
+/* =============== */
+
+.lifestyle-section{
+    padding: 10rem 0;
+}
+.lifestyle-section .button{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+/* =============== */
+/* ======================= FOOTER SECTION CSS ====================== */
+/* =============== */
+
+.footer-section{
+    background-color: #f0f0f0;
+    padding: 4rem 0;
+}
+.condition-list-items{
+    float: left;
+    width: 40%;
+}
+.condition-list-items li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+.condition-list-items li a:link,
+.condition-list-items li a:visited{
+    color: #000000;
+    font-weight: 500;
+}
+.social-link-items{
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.social-link-items li{
+    display: inline-block;
+    margin: 0 .8rem;
+}
+.social-link-items li span{
+    font-weight: 600;
+}
+.social-link-items li a:link,
+.social-link-items li a:visited{
+    font-size: 1.8rem;
+    color: #626262;
+}
